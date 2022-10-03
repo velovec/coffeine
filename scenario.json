@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "type": "random_mouse",
+      "parameters": {
+        "move": true,
+        "click": {
+          "left": false,
+          "right": false,
+          "middle": false
+        },
+        "scroll": false
+      }
+    }, {
+      "type": "window_change",
+      "parameters": {
+        "max_change": 3
+      }
+    }
+  ],
+  "min_tick_duration": 1.0,
+  "max_tick_duration": 10.0
+}
