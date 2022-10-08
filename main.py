@@ -30,7 +30,7 @@ ENABLED_ICON = create_image(64, 64, 'green', 'white')
 
 class Coffeine:
 
-    enabled = False
+    enabled = True
 
     def __init__(self, scenario_path):
         self.icon = Icon("coffeine", DISABLED_ICON, "Coffeine v0.1", menu=Menu(
